@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background: url("stopwatch.jpg") no-repeat repeat center fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 3rem;
+  }
+  
+  .controls {
+    margin-top: 20px;
+
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    color:rgb(214, 50, 50);
+  }
